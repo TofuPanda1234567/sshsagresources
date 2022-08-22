@@ -264,7 +264,7 @@
 #mainNav {
   grid-area: nav;
   /* background-color: #008000 ; */
-  background-color: #555555;
+  background-color: #666666;
   color: black;
   position: -webkit-sticky;
   position: sticky;
@@ -280,8 +280,7 @@
   padding: 5px 10px;
 }
 #mainNav a {
-  /* color: #ffffff; */
-  color: black;
+  color: #ffffff;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
