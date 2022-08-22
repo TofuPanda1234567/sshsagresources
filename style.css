@@ -1,0 +1,304 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* HOME PAGE */
+.home-body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, #c8c8c8, #c7c7c7);
+  background-color: #333;
+  display: grid;
+}
+.main-section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+}
+/* HOME TOP ROW */
+
+#homeBox {
+  background: white;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #333;
+  position: relative;
+  border-radius: 10px;
+}
+#homeBox:hover {
+  background: white;
+  border: 3px solid #333;
+}
+#homePageLinks {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* HOME BOTTOM ROW */
+#bhBox {
+  background: white;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #333;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 45px;
+}
+#bhBox:hover {
+  background: white;
+  border: 3px solid #333;
+}
+
+
+
+/* PRODUCT LINK */
+#pBox {
+    background: white;
+    background-image: url(../images/cowPNG.png);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+}
+#pBox:hover {
+  background-image: url(../images/cowPNG.png);
+  border: 3px solid #333;
+}
+#pPageLinks {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* ANIMAL SCIENCE LINK */
+#aBox {
+    background: white;
+    background-image: url(../images/pig.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+}
+#aBox:hover {
+  background: grey;
+  background-image: url(../images/pig.jpg);
+  border: 3px solid #333;
+}
+#aPageLinks {
+  color: rgb(30, 30, 30);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* FOOD SCIENCE LINK */
+#fBox {
+    background: white;
+    background-image: url(../images/salad.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+}
+#fBox:hover {
+  background: grey;
+  background-image: url(../images/salad.jpg);
+  border: 3px solid #333;
+}
+#fPageLinks {
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* PLANT SCIENCE LINK */
+#plantBox {
+    background: white;
+    background-image: url(../images/leafpng.jpg);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+}
+#plantBox:hover {
+  background: grey;
+  background-image: url(../images/leafpng.jpg);
+  border: 3px solid #333;
+}
+#plantPageLinks {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* NATURAL RESOURCES LINK */
+#nBox {
+    background: white;
+    background-image: url(../images/natresources.png);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+#nbox:hover {
+  background: grey;
+  background-image: url(../images/natresources.png);
+  border: 3px solid #333;
+}
+#nPageLinks {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* AGRICULTURE MECHANICS LINK */
+#mBox {
+    background: white;
+    background-image: url(../images/agmech.png);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+#mbox:hover {
+  background: grey;
+  background-image: url(../images/agmech.png);
+  border: 3px solid #333;
+}
+#mPageLinks {
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* FFA LINK */
+#ffaBox {
+    background: white;
+    background-image: url(../images/ffa.png);
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+#ffabox:hover {
+  background: grey;
+  background-image: url(../images/ffa.png);
+  border: 3px solid #333;
+}
+
+/* ABOUT LINK */
+#aboutBox {
+    background: white;
+    background-image: url("../images/abt.jpg");
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+#aboutbox:hover {
+  background: grey;
+  background-image: url("../images/abt.jpg");
+  border: 3px solid #333;
+}
+
+
+/* ANY PAGE */
+.container {
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+}
+#clearFix {
+  clear: both;
+}
+
+
+#mainHeader {
+  grid-area: head;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  background-image: url("../images/banner.jpg");
+  background-position: center center;
+}
+#mainNav {
+  grid-area: nav;
+  background-color: #008000 ;
+  color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#mainNav ul {
+  padding: 5px 15px;
+  margin: 0;
+  list-style: none;
+}
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+#mainNav li:hover {
+  background-color: #013220;
+}
+
+
+.mainFooter {
+  grid-area: foot;
+  position: fixed;
+  font-size: 10px;
+  font-weight: bold;
+  /* background-color: #008000; */
+  color: black;
+  text-align: center;
+  padding: 1px;
+  margin-top: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
