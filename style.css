@@ -258,13 +258,13 @@
   padding: 20px;
   margin: 0 auto;
   /* background-image: url("../images/banner.jpg"); */
-  background-color: #666666;
+  background-color: #777777;
   background-position: center center;
 }
 #mainNav {
   grid-area: nav;
   /* background-color: #008000 ; */
-  background-color: #888888;
+  background-color: #999999;
   color: black;
   position: -webkit-sticky;
   position: sticky;
