@@ -166,7 +166,7 @@
     margin-top: 45px;
 }
 #nbox:hover {
-  background: grey;
+  /* background: grey; */
   background-image: url(../images/natresources.png);
   border: 3px solid #333;
 }
