@@ -165,8 +165,8 @@
     border-radius: 10px;
     margin-top: 45px;
 }
-#nbox:hover {
-  /* background: grey; */
+#nBox:hover {
+  background: grey;
   background-image: url(../images/natresources.png);
   border: 3px solid #333;
 }
@@ -190,7 +190,7 @@
     border-radius: 10px;
     margin-top: 45px;
 }
-#mbox:hover {
+#mBox:hover {
   background: grey;
   background-image: url(../images/agmech.png);
   border: 3px solid #333;
@@ -215,7 +215,7 @@
     border-radius: 10px;
     margin-top: 45px;
 }
-#ffabox:hover {
+#ffaBox:hover {
   background: grey;
   background-image: url(../images/ffa.png);
   border: 3px solid #333;
@@ -232,7 +232,7 @@
     border-radius: 10px;
     margin-top: 45px;
 }
-#aboutbox:hover {
+#aboutBox:hover {
   background: grey;
   background-image: url("../images/abt.jpg");
   border: 3px solid #333;
